@@ -739,6 +739,16 @@ utterances:
 # For more information: https://isso-comments.de
 isso: # <data_isso>
 
+# Remark42
+# For more information: https://remark42.com/
+remark42:
+  enable: false
+  # remark42 server host, e.g. https://remark.com, http://127.0.0.1:8080,
+  host:
+  site_id:
+  theme: # default: light
+  locale: # default: 'en'
+  no_footer: # default: false
 
 # ---------------------------------------------------------------
 # Post Widgets & Content Sharing Services

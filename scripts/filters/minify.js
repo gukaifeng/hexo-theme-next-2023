@@ -100,6 +100,10 @@ hexo.extend.filter.register('after_generate', () => {
     hexo.route.remove('js/third-party/comments/utterances.js');
   }
 
+  if (!theme.remark42.enable || !theme.remark42.host) {
+    hexo.route.remove('js/third-party/comments/remark42.js');
+  }
+
   // Math
   if (!theme.math.katex.enable || !theme.math.katex.copy_tex) {
     hexo.route.remove('js/third-party/math/katex.js');
