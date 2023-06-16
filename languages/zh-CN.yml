@@ -67,7 +67,7 @@ search:
   placeholder: 搜索...
   empty: "没有找到任何搜索结果：%s"
   hits_time: "找到 %s 个搜索结果（用时 %s 毫秒）"
-  hits: "找到 %s 个搜索结果"
+  hits: "找到 %s 个搜索结果（每篇文章显示 1 个条目）"
 cheers:
   um: 嗯..
   ok: 还行
